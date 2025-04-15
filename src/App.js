@@ -1,12 +1,17 @@
 // import logo from './logo.svg';
 import './App.css';
 
-function App() {
-  return (
-    <>
-      <p>WelCome</p>
-    </>
-  );
+import React, { Component } from 'react'
+
+export default class App extends Component {
+  a = 'Vikas'
+  render() {
+    return (
+      <div>
+        {this.a}
+      </div>
+    )
+  }
 }
 
-export default App;
+
