@@ -2,13 +2,15 @@
 import './App.css';
 
 import React, { Component } from 'react'
+import Navbar from './Components/Navbar';
+import News from './Components/News';
 
 export default class App extends Component {
-  a = 'Vikas'
   render() {
     return (
       <div>
-        {this.a}
+          <Navbar/> 
+          <News/>
       </div>
     )
   }
