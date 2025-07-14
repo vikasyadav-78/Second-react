@@ -52,7 +52,7 @@ render() {
           </div>
         })}
       </div>
-      <div class="d-flex justify-content-between">
+      <div className="d-flex justify-content-between">
       <button type="button" disabled={this.state.page<=1} onClick={this.handdlePrevBtn} className="btn btn-dark">Prev</button>
       <button type="button" onClick={this.handdleNextBtn} className="btn btn-dark">Next</button>
       </div>
